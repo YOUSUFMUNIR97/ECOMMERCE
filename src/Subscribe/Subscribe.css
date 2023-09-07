@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.Subscribe {
+  background-color: #10504F;
+  color: #FFFF;
+  height: 239px;
+}
+
+.Subscribe-desktop {
+  background-color: #10504F;
+  color: #FFFF;
+  height: 332px;
+  padding: 0 48px;
+  display: grid;
+  place-items: center;
+}
+
+.Subscribe-info-cntr {
+  display: grid;
+  grid-template-columns: 4fr 2fr 1fr;
+}
+
+.Subscribe-info-cntr input {
+  width: 100%;
+  height: 54px;
+}
+
+.Subscribe-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.Subscribe-info {
+  margin: 0 27px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.Subscribe-info-desktop {
+  margin: 0 27px;
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  line-height: 22.6px;
+}
+
+.Subscribe-btn {
+  display: block;
+  margin: 56px auto auto auto;
+  padding: 13.5px 28.5px;
+  background-color: #10504F;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  font-size: 12px;
+  font-style: bold;
+  letter-spacing: 1px;
+}
+
+.Subscribe-info-cntr button {
+  margin: auto;
+  margin-top: 0px;
+  margin-left: 13px;
+  height: 54px;
+}
+
+input[type="text"] {
+  font-family: 'Lato', sans-serif;
+  padding-left: 17px;
+}
+
+@media screen and (min-width: 650px) {
+  .Subscribe {
+    height: 332px;
+  }
+  .Subscribe-header {
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  .Subscribe-info {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .Subscribe {
+    height: 332px;
+  }
+  .Subscribe-header {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  
+  .Subscribe-info {
+    font-size: 22px;
+    line-height: 26px;
+  }
+}

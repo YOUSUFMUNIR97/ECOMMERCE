@@ -1,0 +1,59 @@
+.HeroCarousel {
+  height: 100px;
+  overflow: hidden;
+}
+
+.HeroCarousel-main-slide, .carousel-root , .carousel-slider {
+  height: 227px;
+  overflow: hidden;
+}
+
+.HeroCarousel-main-slide button::before {
+  box-shadow: none;
+  opacity: 0;
+  visibility: none;
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: 0;
+}
+
+.carousel .control-dots .dot {
+  box-shadow: none;
+}
+
+.carousel .thumb {
+  display: none;
+ }
+ 
+ .carousel .carousel-status {
+  display: none;
+ }
+
+ @media screen and (min-width: 270px) {
+  .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
+    height: 250px;
+  }
+}
+
+ @media screen and (min-width: 600px) {
+  .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
+    height: 350px;
+  }
+}
+
+ 
+@media screen and (min-width: 850px) {
+  .HeroCarousel-main-slide, .HeroCarousel-main-slide .carousel-root , .HeroCarousel-main-slide .carousel-slider {
+    height: 638px;
+  }
+}
+
+ @import url('react-responsive-carousel/lib/styles/carousel.min.css');

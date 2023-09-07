@@ -1,0 +1,25 @@
+.ImgSmall {
+  display: flex;
+  flex-direction: column;
+}
+
+.ImgSmall:hover {
+  cursor: pointer;
+}
+
+.ImgSmall img {
+  margin: 0;
+  background-size: cover;
+}
+
+
+@media screen and (min-width: 800px) {
+  .Gallery-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+  }
+  .ImgSmall img {
+    margin: 0;
+    height: 570px;
+  }
+}

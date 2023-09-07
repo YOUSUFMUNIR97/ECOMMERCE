@@ -1,0 +1,8 @@
+.ImgLarge {
+  display: flex;
+  flex-direction: column;
+}
+
+.ImgLarge:hover {
+  cursor: pointer;
+}

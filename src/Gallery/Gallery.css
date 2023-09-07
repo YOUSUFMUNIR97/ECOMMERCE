@@ -1,0 +1,20 @@
+.Gallery {
+  padding: 20px;
+}
+
+.Gallery-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 800px) {
+  .Gallery {
+    padding: 48px;
+  }
+  .Gallery-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+

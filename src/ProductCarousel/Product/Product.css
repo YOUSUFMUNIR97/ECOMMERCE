@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+.Product {
+  font-family: 'Lato', sans-serif;
+}
+
+.Product:hover {
+  cursor: pointer;
+}
+
+.Product-info-title  {
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.Product-info-category {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.4px;
+}
+
+.Product-info img {
+  width: 146.67px;
+  height: 220px;
+}
+
+.Product-info-price {
+  color: #10504F;
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: -10px;
+} 
+
+.Product-info-price span {
+  font-weight: 100;
+  font-size: 28px;
+}
+ 
+@media screen and (min-width: 480px) {
+  .Product-info img {
+    height: 270px;
+    width: 220.67px;
+  }
+}
+
+@media screen and (min-width: 590px) {
+  .Product-info img {
+    width: 280px;
+    height: 420px;
+  }
+}
